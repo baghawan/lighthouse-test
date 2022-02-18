@@ -49,7 +49,7 @@ jobs:
           ##############################################################
           - NAME: 'RevivalTV.id'
             URLS: 'https://revivaltv.id/'
-            BADGES_ARGS: '-b pagespeed -o lighthouse_results/first_group -r'
+            BADGES_ARGS: '-b pagespeed -o lighthouse_results/revivaltv_id -r'
             # Your defaults will be used unless you redefine a following env
             # TOKEN_NAME:
             # REPO_BRANCH:
