@@ -26,10 +26,10 @@ env:
 
 # TRIGGERS
 on:
-  # page_build:
-  # schedule: # Check your schedule here => https://crontab.guru/
-  #   - cron: '55 23 * * 0' # e.g. every Sunday at 23:55
-  workflow_dispatch:
+  #page_build:
+  #  schedule: # Check your schedule here => https://crontab.guru/
+  #    - cron: '59 23 * * 0' # e.g. every Sunday at 23:59
+   workflow_dispatch:
     # No predefined inputs; The env defined in this file are used instead when this trigger is triggered.
 
 ########################################################################
